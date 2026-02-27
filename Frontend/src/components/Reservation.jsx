@@ -1,5 +1,4 @@
 import React from 'react'
-import {HiOutlineArrowNarrowRight} from 'react-icons/hi'
 import axios from 'axios'
 import { useState } from 'react'
 import toast from 'react-hot-toast'
@@ -18,7 +17,7 @@ const Reservation = () => {
   const handleReservation=async(e)=>{
     e.preventDefault();
     try{
-      const {data}=await axios.post("http://localhost:4000/api/v1/reservation/send",
+      const {data}=await axios.post(`${import.meta.env.VITE_API_URL}/api/v1/reservation/send`,
       {firstName,lastName,email,phone,date,time},
       {
         headers:{
@@ -63,9 +62,6 @@ const Reservation = () => {
                 <input type="number" placeholder='Phone' value={phone} onChange={(e)=>setPhone(e.target.value)} />
               </div>
               <button type='submit'>Reserve Now{""}
-                  <span>
-                    <HiOutlineArrowNarrowRight/>
-                  </span>
                 </button>
             </form>
           </div>
