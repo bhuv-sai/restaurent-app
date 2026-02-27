@@ -27,7 +27,7 @@ const HeroSection = () => {
           <div className="imageBox">
             <img src="/hero2.jpeg" alt="" />
           </div>
-          <h1 className='title dishes_title'><b><i>Foods</i></b></h1>
+          <h1 className='title'><b><i>Foods</i></b></h1>
         </div>
       </div>
     </section>
