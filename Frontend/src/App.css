@@ -230,8 +230,8 @@ nav .showmenu .menuBtn {
 .heroSection .container {
   display: flex;
   max-width: 1200px;
-  width: 90%;
-  margin: auto;
+  width: 100%;
+  margin:0 auto;
 }
 
 .heroSection .container .banner:first-child {
@@ -251,7 +251,7 @@ nav .showmenu .menuBtn {
 }
 
 .heroSection .container .banner .title {
-  font-size: clamp(2rem, 5vw, 4rem);
+  font-size: 6.5rem
   font-weight: 300;
   line-height: 1.1;
 }
