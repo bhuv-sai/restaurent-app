@@ -9,6 +9,9 @@
 ::-webkit-scrollbar {
   display: none;
 }
+#root {
+  width: 100%;
+}
 
 /* ==================== NAVIGATION ==================== */
 nav {
