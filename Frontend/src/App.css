@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap");
-
 * {
   font-family: "Oswald", sans-serif;
   box-sizing: border-box;
@@ -251,7 +249,7 @@ nav .showmenu .menuBtn {
 
 .heroSection .container .banner .title {
   font-size: 6.5rem;
-  font-weight: 200;
+  font-weight: 300;
   line-height: 1.1;
 }
 
@@ -369,7 +367,7 @@ nav .showmenu .menuBtn {
 }
 
 .heading {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 4rem;
   color: #fff;
   margin-left: 3rem;
