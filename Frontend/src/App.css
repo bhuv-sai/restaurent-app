@@ -9,9 +9,6 @@
 ::-webkit-scrollbar {
   display: none;
 }
-#root {
-  width: 100%;
-}
 
 /* ==================== NAVIGATION ==================== */
 nav {
@@ -231,7 +228,7 @@ nav .showmenu .menuBtn {
   display: flex;
   max-width: 1200px;
   width: 100%;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
 .heroSection .container .banner:first-child {
@@ -251,7 +248,7 @@ nav .showmenu .menuBtn {
 }
 
 .heroSection .container .banner .title {
-  font-size: 40px;
+  font-size: 6.5rem;
   font-weight: 300;
   line-height: 1.1;
 }
@@ -370,7 +367,7 @@ nav .showmenu .menuBtn {
 }
 
 .heading {
-  font-weight: 300;
+  font-weight: 200;
   font-size: 4rem;
   color: #fff;
   margin-left: 3rem;
@@ -475,24 +472,18 @@ nav .showmenu .menuBtn {
     margin-left: 0;
     text-align: center;
   }
-  .about .container .banner a{
-    align-items:center;
-  }
 }
 
 @media (max-width: 530px) {
   .heading {
     font-size: 2.5rem;
   }
-  .about .container .banner a{
-    align-items:center;
-  }
-  .about .container .banner .top p{
-    text-align:center;
-  }
 
   .about .container .banner img {
     width: 100%;
+  }
+  .about .container .banner a{
+    align-items: center;
   }
 }
 
@@ -1325,10 +1316,6 @@ footer .container .banner .right {
     width: 100%;
     max-width: 500px;
   }
-   .reservation .container .banner .reservation_form_box form input[type="date"],
-  .reservation .container .banner .reservation_form_box form input[type="time"] {
-    color: #111;
-  }
 }
 
 @media (max-width: 600px) {
@@ -1352,7 +1339,7 @@ footer .container .banner .right {
   .reservation .container .banner .reservation_form_box form div input {
     min-width: 48%;
   }
-   .reservation .container .banner .reservation_form_box form input[type="date"],
+  .reservation .container .banner .reservation_form_box form input[type="date"],
   .reservation .container .banner .reservation_form_box form input[type="time"] {
     color: #111;
   }
